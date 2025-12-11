@@ -18,13 +18,26 @@ const getAnswers = () => {
   return JSON.parse(data);
 };
 
-// API endpoint to get a random answer
+// API endpoint to get a random answer with weighted selection
 app.get('/api/answer', (req, res) => {
   try {
-    const answers = getAnswers();
-    const randomIndex = Math.floor(Math.random() * answers.length);
-    const randomAnswer = answers[randomIndex];
-    res.json({ answer: randomAnswer });
+    const random = Math.random();
+    let selectedAnswer;
+
+    if (random < 0.2) {
+      // 20% chance: return "yes"
+      selectedAnswer = "yes";
+    } else if (random < 0.4) {
+      // 20% chance: return "no"
+      selectedAnswer = "no";
+    } else {
+      // 60% chance: return random answer from JSON list
+      const answers = getAnswers();
+      const randomIndex = Math.floor(Math.random() * answers.length);
+      selectedAnswer = answers[randomIndex];
+    }
+    
+    res.json({ answer: selectedAnswer });
   } catch (error) {
     console.error('Error reading answers:', error);
     res.status(500).json({ error: 'Failed to get answer' });
