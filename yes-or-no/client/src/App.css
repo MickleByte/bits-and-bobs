@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.yes-no-button {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.yes-no-button:hover:not(:disabled) {
+  background-color: #c0392b;
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.yes-no-button:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.yes-no-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.answer {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  min-height: 50px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.loading {
+  font-size: 24px;
+  color: white;
+  opacity: 0.7;
+  min-height: 50px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
