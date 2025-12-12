@@ -104,7 +104,16 @@ button.addEventListener('click', async () => {
             "I must decline",
             "I look deep into the glistering water and see my reflection giving a thumbs up",
             "This path will not be easy to tred but I must do it",
-            "I will not turn my back on my anscestors: No"          
+            "I will not turn my back on my anscestors: No"   ,
+            "No, but I'm willing to consider it if you convert to Islam",
+            "No, that sounds worse than becoming a bellringer",
+            "Not only am I saying yes, I'm going to fart a little ditty about it",
+            "I'm saying yes to this like you say yes to Gyros",
+            "Sure, and afterwards how about the Beeston Social",
+            "No, but if you beat me at arcade basketball then yes",
+            "I want to say no, unfortunately my mouth is full of cheese so I can only shake my head",
+            "Yes, I want it more than Krampus' candy cane",
+            "Less talk, more me saying no"
         ]
         
         // Get a random answer from the array
