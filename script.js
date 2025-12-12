@@ -1,4 +1,4 @@
-const VERSION = 5;
+const VERSION = 6;
 
 const button = document.getElementById('yesNoButton');
 const answerDiv = document.getElementById('answer');
@@ -107,7 +107,7 @@ button.addEventListener('click', async () => {
             "My brain has just spunked a big thought load into my head. It ejaculated: No",
             "No and I'm sending you to the shadow realm",
             "The prophecy forbids such a course",
-            "In the village by still waters a distance bell tolls signalling yes",
+            "In the village by still waters a distant bell tolls signalling yes",
             "The universe has signalled: no",
             "I must decline",
             "I look deep into the glistering water and see my reflection giving a thumbs up",
@@ -133,7 +133,21 @@ button.addEventListener('click', async () => {
             "I'm going to say no but it's for your own good",
             "I shed a tear of joy and say yes",
             "Fear leads to anger; Anger leads to hate; Hate leads to suffering; Suffering leads to the Dark Side. No, I must say",
-            "Did you ever hear the tradgedy of Darth Plagueis the Wise? I thought not. It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself. (Yes)"
+            "Did you ever hear the tradgedy of Darth Plagueis the Wise? I thought not. It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself. (Yes)",
+            "My dog says yes",
+            "Time is running out, I must return to my own dimension, but before I do: No",
+            "Yes and I'm going to write a smutty novel about it as well",
+            "I let Jesus into my life and he says nope",
+            "No way on this planet",
+            "If I had a penny for every time I've said yes to that question, I'd have no pennies because No",
+            "Life is better when you say no",
+            "Can you hear that sound? It's the sound of me telling you no",
+            "What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little \"clever\" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo. (Yes)",
+            "Yeah but only because you're pretty 😉",
+            "My mum said no and also I have to go back for dinner at 6pm",
+            "Life's about saying yes so dig me a grave because I'd rather die",
+            "here are approximately 1,010,300 words in the English language, but I could never string enough words together to properly express how much I want to hit you with a chair - No",
+            "There's a creepy child staring at me - I think I better say yes"
         ]
         
         // Get a random answer from the array
