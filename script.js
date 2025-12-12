@@ -119,9 +119,9 @@ button.addEventListener('click', async () => {
         // Get a random answer from the array
         const random = Math.random();
         let randomAnswer
-        if (random < 0.2) {
+        if (random < 0.15) {
             randomAnswer = "Yes";
-        } else if (random < 0.4) {
+        } else if (random < 0.3) {
             randomAnswer = "No";
         } else {
             const randomIndex = Math.floor(Math.random() * answers.length);
