@@ -55,7 +55,24 @@ button.addEventListener('click', async () => {
             "Yay",
             "Nay",
             "Nah",
-            "Yes 😘"
+            "Yes 😘",
+            "Cowabunga (no)",
+            "Yepepe",
+            "Yes, but only if you give me a hug first",
+            "No, unless you give me a hug first",
+            "No way, Jose",
+            "No No No No",
+            "No (unless it's Tuesday, then yes)",
+            "Yes (now play 'Don't Stop Believin')",
+            "Si Senor, si",
+            "Yeehaw (no)",
+            "Take the first digit of todays date: odd number = yes, even number = no",
+            "Take a deep breath, count to 2 and then say Noooooooo",
+            "Yes but I need to fart first",
+            "Yes so hard I've just shit my pants",
+            "Oh dear, I'm gonna drop a little giggle from my belly button: nope!",
+            "Certainly not",
+            "Certainly"
           ]
         
         // Get a random answer from the array
