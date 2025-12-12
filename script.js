@@ -113,7 +113,19 @@ button.addEventListener('click', async () => {
             "No, but if you beat me at arcade basketball then yes",
             "I want to say no, unfortunately my mouth is full of cheese so I can only shake my head",
             "Yes, I want it more than Krampus' candy cane",
-            "Less talk, more me saying no"
+            "Less talk, more me saying no",
+            "I want to say yes but I'm too busy farting",
+            "YES YOU BEAUTIFUL BAAAAARSTARD",
+            "No thanks I'm actually going to become a Nun, go away",
+            "I'm not sure what to say so I'm going to say no",
+            "I have a talking cat, he says yes",
+            "Technically speaking, I'm going to have to say no",
+            "Say NO! to Communism",
+            "EMERGENCY! EMERGENCY! YES!",
+            "I'm going to say no but it's for your own good",
+            "I shed a tear of joy and say yes",
+            "Fear leads to anger; Anger leads to hate; Hate leads to suffering; Suffering leads to the Dark Side. No, I must say",
+            "Did you ever hear the tradgedy of Darth Plagueis the Wise? I thought not. It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself. (Yes)"
         ]
         
         // Get a random answer from the array
