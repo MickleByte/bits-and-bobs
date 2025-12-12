@@ -1,5 +1,13 @@
+const VERSION = 5;
+
 const button = document.getElementById('yesNoButton');
 const answerDiv = document.getElementById('answer');
+const versionDiv = document.getElementById('version');
+
+// Set version number from constant
+if (versionDiv) {
+    versionDiv.textContent = `Version: ${VERSION}`;
+}
 
 button.addEventListener('click', async () => {
     try {
