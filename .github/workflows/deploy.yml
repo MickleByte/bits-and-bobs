@@ -23,12 +23,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION || 'us-east-1' }}
 
       - name: Deploy to S3
-        run: |
-          # Upload CSS and JS with long cache
-          aws s3 cp style.css s3://${{ secrets.S3_BUCKET_NAME_BITS_N_BOBS }}/style.css \
-            --cache-control "public, max-age=31536000, immutable" \
-            --content-type "text/css"
-          
+        run: |          
           aws s3 cp script.js s3://${{ secrets.S3_BUCKET_NAME_BITS_N_BOBS }}/script.js \
             --cache-control "public, max-age=31536000, immutable" \
             --content-type "application/javascript"
