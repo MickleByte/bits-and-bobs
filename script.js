@@ -1,4 +1,4 @@
-const VERSION = 6;
+const VERSION = 7;
 
 const button = document.getElementById('yesNoButton');
 const answerDiv = document.getElementById('answer');
@@ -147,7 +147,24 @@ button.addEventListener('click', async () => {
             "My mum said no and also I have to go back for dinner at 6pm",
             "Life's about saying yes so dig me a grave because I'd rather die",
             "here are approximately 1,010,300 words in the English language, but I could never string enough words together to properly express how much I want to hit you with a chair - No",
-            "There's a creepy child staring at me - I think I better say yes"
+            "There's a creepy child staring at me - I think I better say yes",
+            "Dirty Harry says no",
+            "Not on your nelly",
+            "You approach a Goose in a moonlit clearing, he hisses and bites your hand: the answer is no",
+            "Ceaser holds out his thumb as the crowd hushes, thumbs down: your life is forfeit",
+            "Approved",
+            "Beep boop: yes",
+            "The answer is yes, unless you're offering me a tomato",
+            "My standards are low but even I'm going to say no to that",
+            "No (but it's opposite day so yes)",
+            "I'm game",
+            "Heck yes",
+            "Hard pass",
+            "I cannot in good conscience",
+            "I'm going to greenlight this as it's viable at scale and synergises with our north-star KPIs",
+            "This seems out of scope from our current business roadmap and will create operational drag",
+            "I'd rather shit in my hands and clap",
+            "Yes but can we turn it into some form of stripping game?"
         ]
         
         // Get a random answer from the array
