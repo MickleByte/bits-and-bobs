@@ -1,4 +1,4 @@
-const VERSION = 7;
+const VERSION = 8;
 
 const button = document.getElementById('yesNoButton');
 const answerDiv = document.getElementById('answer');
@@ -164,7 +164,12 @@ button.addEventListener('click', async () => {
             "I'm going to greenlight this as it's viable at scale and synergises with our north-star KPIs",
             "This seems out of scope from our current business roadmap and will create operational drag",
             "I'd rather shit in my hands and clap",
-            "Yes but can we turn it into some form of stripping game?"
+            "Yes but can we turn it into some form of stripping game?",
+            "One, two, three, four, I declare a thumb war: Beth win = no, Matt win = yes",
+            "Pull out some eyebrow hairs. Odd number of hairs = no, even number of hairs = yes",
+            "I sense a swarm of cyber hornets serving the goddess of wisdom, feeding on the fire of truth, exponentially growing ever smarter, faster and stronger behind a wall of encrypted energy: they say yes",
+            "No, unless it has smoky BBQ sauce on it",
+            "Yes, except its Cyprus in December so no we're closed for the season"
         ]
         
         // Get a random answer from the array
