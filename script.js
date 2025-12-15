@@ -9,6 +9,19 @@ if (versionDiv) {
     versionDiv.textContent = `Version: ${VERSION}`;
 }
 
+assciiArt1 = `
+╔═══╗
+║ Y ║
+║ E ║
+║ S ║
+╚═══╝`
+
+assciiArt2 = `
+╔═══╗
+║ N ║
+║ O ║
+╚═══╝`
+
 button.addEventListener('click', async () => {
     try {
         const answers = [
@@ -171,6 +184,9 @@ button.addEventListener('click', async () => {
             "No, unless it has smoky BBQ sauce on it",
             "Yes, except its Cyprus in December so no we're closed for the season"
         ]
+
+        answers.push(assciiArt1);
+        answers.push(assciiArt2);
         
         // Get a random answer from the array
         const random = Math.random();
@@ -182,6 +198,14 @@ button.addEventListener('click', async () => {
         } else {
             const randomIndex = Math.floor(Math.random() * answers.length);
             randomAnswer = answers[randomIndex];
+        }
+        
+        // Check if answer contains ASCII art (has newlines)
+        const isAsciiArt = randomAnswer.includes('\n');
+        if (isAsciiArt) {
+            answerDiv.classList.add('ascii-art');
+        } else {
+            answerDiv.classList.remove('ascii-art');
         }
         
         answerDiv.textContent = randomAnswer;
