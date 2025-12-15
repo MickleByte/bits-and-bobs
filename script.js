@@ -24,6 +24,17 @@ assciiArt2 = `
 
 button.addEventListener('click', async () => {
     try {
+        // 1/1000 chance to Rick Roll
+        if (Math.random() < 0.001) {
+            window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+            return;
+        }
+        // 1/1000 chance yeru
+        if (Math.random() < 0.002) {
+            window.open('https://www.youtube.com/watch?v=GNGH6E7-pFQ', '_blank');
+            return;
+        }
+        
         const answers = [
             "Certainly",
             "I don't think so",
