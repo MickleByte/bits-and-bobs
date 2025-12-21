@@ -1,4 +1,4 @@
-const VERSION = 8;
+const VERSION = 9;
 
 const button = document.getElementById('yesNoButton');
 const answerDiv = document.getElementById('answer');
@@ -77,7 +77,7 @@ button.addEventListener('click', async () => {
             "I'm sure",
             "I'm sure....... that it's a no",
             "Whaaaat? (Yes)",
-            "Yes but only once and then if you ever ask me again",
+            "Yes but only once and then if you ever ask me again I'll stab you with a fork",
             "Ask again later",
             "Hmmm... I think it's a no",
             "You're in luck! No!",
@@ -193,7 +193,13 @@ button.addEventListener('click', async () => {
             "Pull out some eyebrow hairs. Odd number of hairs = no, even number of hairs = yes",
             "I sense a swarm of cyber hornets serving the goddess of wisdom, feeding on the fire of truth, exponentially growing ever smarter, faster and stronger behind a wall of encrypted energy: they say yes",
             "No, unless it has smoky BBQ sauce on it",
-            "Yes, except its Cyprus in December so no we're closed for the season"
+            "Yes, except its Cyprus in December so no we're closed for the season",
+            "Yes: That's why they call me daddy's girl",
+            "No, I hate that idea more than eggs",
+            "I'll only say yes if you've spent less than 10 minutes in the toilet today",
+            "I hold godly power in my hands the likes of which your feeble mortal mind cannot comprehend: no",
+            "Did you know that there are 150 different answers you can get when you press this button? And you were lucky enough to get this one. As a reward for your good fortune I'm not only going to say no but also go fuck yourself",
+            "\"Donkey!\" shouted Shrek. His calls echoing off the smooth walls of the cave. He pushed further inside the dark passage he had seen Donkey barrel into only moments before , chasing a crimson butterfly.\n\"Donkey, where have you got too! We need to get the princess back to Lord Farquaad before sunset!\" he bellowed into the darkness ahead. Emerging into an opening lit by the moonlight Shrek found Donkey lounging in a steaming pool. \"Shrek, you not gonna believe I found a jacuzzi in here!\" said Donkey, \"you gotta try this, it'll melt your stress right off: and you need a little bit of stress relief in your life\". \n\"Uh, we don't have time\" Shrek berated \"But, o' I suppose\". Slipping off his Jerkin and lifting his rough shirt over his head, Shrek then lowered his trousers and let free his green megacock. He met Donkey's longing gaze. \"You wanna peel back one more layer of this onion?\" he whispered. Donkey's reply was simple: \"Hell yeah!\""
         ]
 
         answers.push(assciiArt1);
