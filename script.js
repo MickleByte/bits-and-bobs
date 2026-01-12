@@ -1,4 +1,4 @@
-const VERSION = 9;
+const VERSION = 10;
 
 const button = document.getElementById('yesNoButton');
 const answerDiv = document.getElementById('answer');
@@ -198,8 +198,21 @@ button.addEventListener('click', async () => {
             "No, I hate that idea more than eggs",
             "I'll only say yes if you've spent less than 10 minutes in the toilet today",
             "I hold godly power in my hands the likes of which your feeble mortal mind cannot comprehend: no",
-            "Did you know that there are 150 different answers you can get when you press this button? And you were lucky enough to get this one. As a reward for your good fortune I'm not only going to say no but also go fuck yourself",
-            "\"Donkey!\" shouted Shrek. His calls echoing off the smooth walls of the cave. He pushed further inside the dark passage he had seen Donkey barrel into only moments before , chasing a crimson butterfly.\n\"Donkey, where have you got too! We need to get the princess back to Lord Farquaad before sunset!\" he bellowed into the darkness ahead. Emerging into an opening lit by the moonlight Shrek found Donkey lounging in a steaming pool. \"Shrek, you not gonna believe I found a jacuzzi in here!\" said Donkey, \"you gotta try this, it'll melt your stress right off: and you need a little bit of stress relief in your life\". \n\"Uh, we don't have time\" Shrek berated \"But, o' I suppose\". Slipping off his Jerkin and lifting his rough shirt over his head, Shrek then lowered his trousers and let free his green megacock. He met Donkey's longing gaze. \"You wanna peel back one more layer of this onion?\" he whispered. Donkey's reply was simple: \"Hell yeah!\""
+            "Did you know that there are more than 150 different answers you can get when you press this button? And you were lucky enough to get this one. As a reward for your good fortune I'm not only going to say no but also go fuck yourself",
+            "\"Donkey!\" shouted Shrek. His calls echoing off the smooth walls of the cave. He pushed further inside the dark passage he had seen Donkey barrel into only moments before , chasing a crimson butterfly.\n\"Donkey, where have you got too! We need to get the princess back to Lord Farquaad before sunset!\" he bellowed into the darkness ahead. Emerging into an opening lit by the moonlight Shrek found Donkey lounging in a steaming pool. \"Shrek, you not gonna believe I found a jacuzzi in here!\" said Donkey, \"you gotta try this, it'll melt your stress right off: and you need a little bit of stress relief in your life\". \n\"Uh, we don't have time\" Shrek berated \"But, o' I suppose\". Slipping off his Jerkin and lifting his rough shirt over his head, Shrek then lowered his trousers and let free his green megacock. He met Donkey's longing gaze. \"You wanna peel back one more layer of this onion?\" he whispered. Donkey's reply was simple: \"Hell yeah!\"",
+            "We're not doing that",
+            "I will not co-sign this venture",
+            "I'll allow it",
+            "All systems are go for a no",
+            "I have zero objections to this",
+            "Permission granted",
+            "I refuse on principle",
+            "I flip a coin and it's heads: no",
+            "I flip a coin and it's tails: yes",
+            "Blrrmph grrmph mmph hrrmph (I think they said yes but their mouth is full of dirt)",
+            "Nien!",
+            "You seek wisdom my child? Of course, I could give you an answer but will it truly satisfy your craving for conviction? May it not be better to take the question into yourself? To search your soul for an answer instead of asking me - a button on the internet? No? Oh. Alright then. Yes",
+            "*burp* yeah"
         ]
 
         answers.push(assciiArt1);
